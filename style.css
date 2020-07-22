@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+#personalBank{
+    display: block;
+}
+.login{
+    padding: 5%;
+    box-shadow: 5px 5px 10px lightgray;
+    background: #f5f5f5;
+}
+
+#workInfo{
+    padding: 100px 0;
+    display: none;
+}
+
+.deposit{
+    background-color: tomato;
+}
+.withdraw{
+    background-color: yellowgreen;
+} 
+.balance{
+    background-color: skyblue;
+}
+.item-1{
+    padding: 20px;
+    border-radius: 15px;
+    color: #1b1a1a;
+
+}
+.item-1 h3{
+    font-size: 25px;
+}
+.item-1 h1{
+    font-size: 45px;
+}
+
+@media screen and (max-width: 767px){
+    .mb{
+        margin-bottom: 20px;
+    }
+    .form1{
+        margin-bottom: 20px;
+    }
+}
